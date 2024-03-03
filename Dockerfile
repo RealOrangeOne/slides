@@ -1,6 +1,6 @@
 FROM alpine:3.19
 
-RUN apk add --no-cache nginx gettext nginx-mod-http-brotli nginx-mod-http-dav-ext nginx-mod-http-js
+RUN apk add --no-cache nginx gettext nginx-mod-http-brotli nginx-mod-http-dav-ext nginx-mod-http-js apache2-utils
 
 RUN mkdir -p /run/nginx
 RUN htpasswd -b -c /etc/nginx/.htpasswd user password
