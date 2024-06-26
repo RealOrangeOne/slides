@@ -1,4 +1,4 @@
-FROM alpine:3.19
+FROM alpine
 
 RUN apk add --no-cache nginx gettext nginx-mod-http-brotli nginx-mod-http-dav-ext nginx-mod-http-js apache2-utils
 
