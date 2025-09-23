@@ -7,7 +7,6 @@ You probably don't want to use this yourself, but it's open source anyway!
 ## Features
 
 - Serve files performantly with `nginx`
-- Automatically calculate a sitemap based on directories
 - Redirect the root to my website.
 - Upload files via WebDAV (protected by basic auth).
 - Healthcheck endpoint at `/.ping`.
