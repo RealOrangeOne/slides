@@ -6,6 +6,7 @@ on:
       - 'master'
   schedule:
     - cron: '0 0 1 * *'  # Keep it up-to-date automatically
+  workflow_dispatch:
 
 jobs:
   docker:
